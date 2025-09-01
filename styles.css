@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+img {
+    height: 256px;
+    width: 400px;
+}
+
+#cat-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: rgb(78, 137, 78);
+    font-size: 45px;
+}
+body {
+    background-color: rgb(20, 19, 19);
+    font-family: 'Advent Pro','Courier New', Courier, monospace;
+}
+p {
+    color: rgb(244, 245, 241);
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 950px){
+   #cat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+}
