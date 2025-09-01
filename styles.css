@@ -2,7 +2,7 @@
 
 img {
     height: 256px;
-    width: 400px;
+    width: 300px;
 }
 
 #cat-container {
@@ -10,6 +10,11 @@ img {
     flex-direction: row;
     justify-content: center;
     gap: 100px;
+    border:2px solid red;
+}
+section {
+    border: 2px solid yellow;
+    padding: 30px;
 }
 #title-container {
     display: flex;
@@ -30,7 +35,7 @@ p {
 }
 
 
-@media (max-width: 992px){
+@media only screen and (max-width: 950px){
    #cat-container {
     display: flex;
     flex-direction: column;
@@ -38,6 +43,8 @@ p {
     align-items: center;
     gap: 100px;
 }
+}
 
 }
+
 
