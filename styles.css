@@ -30,7 +30,7 @@ p {
 }
 
 
-@media only screen and (max-width: 950px){
+only screen and (min-width: 480px){
    #cat-container {
     display: flex;
     flex-direction: column;
@@ -38,4 +38,5 @@ p {
     align-items: center;
     gap: 100px;
 }
+
 }
